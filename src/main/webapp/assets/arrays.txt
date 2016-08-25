@@ -1,0 +1,4 @@
+{ "aaData": [
+	["assets/1.svg","chinamobile","petrinet","2MB"],
+	["assets/2.svg","chinamobile","petrinet","5MB"]
+] }

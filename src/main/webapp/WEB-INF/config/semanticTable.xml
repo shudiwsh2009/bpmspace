@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+	<activities>
+		<activity name="Department / Department manager / review and approve"></activity>
+		<activity name="Labor Union / Labor Union vice-chairman / review and approve"></activity>
+		<activity name="Center / Department manager / review and approve"></activity>
+		<activity name="Execution department / Department manager / review and approve"></activity>
+	</activities>
+	<activities>
+		<activity name="申请人起草"></activity>
+		<activity name="起草"></activity>
+	</activities>
+	<activities>
+		<activity name="Center / Employee / review and approve"></activity>
+		<activity name="Department Internal / Employee / review and approve"></activity>
+	</activities>
+	<gateways>
+		<gateway name="has internal center"></gateway>
+		<gateway name="has division"></gateway>
+	</gateways>
+</table>

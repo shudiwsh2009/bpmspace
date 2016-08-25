@@ -1,0 +1,32 @@
+svg {
+  overflow: hidden;
+}
+
+.node rect {
+  stroke: # 333;
+  stroke - width : 1.5px;
+  fill: #fff;
+}
+
+.selected text {
+    fill: white;
+}
+
+.selected rect {
+  fill: #cc0000;
+}
+
+.edgeLabel rect {
+  fill: #fff;
+}
+
+.edgePath {
+  stroke: #333;
+  stroke-width : 1px;
+  fill: none;
+  
+  text {
+  font-weight: 300;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serf;
+  font-size: 20px;
+}

@@ -1,0 +1,427 @@
+###<sp:message code=""></sp:message>
+
+### js 
+### Table 
+DBTable.modelName=Name
+DBTable.modelType=Type
+DBTable.CreateInfo=Create Info
+DBTable.Lastmodifiedtime=Last Modified Time
+DBTable.size=Size
+DBTable.version=Version
+
+### InstanceLogOverViewTable
+InstanceLogOverViewTable.instanceId=Instance ID
+InstanceLogOverViewTable.ActivityNum=Activity Number
+InstanceLogOverViewTable.startTime=Start Time
+InstanceLogOverViewTable.endTime=End Time
+InstanceLogOverViewTable.avergeConsuming=Average Time Consuming
+InstanceLogOverViewTable.medianConsuming=Median Time Consuming
+InstanceLogOverViewTable.totalConsuming=Total Time Consuming
+
+### InstanceActivityStatisticsTables
+InstanceActivityStatisticsTables.acttivityName=Activity Name
+InstanceActivityStatisticsTables.excuteResources=Executive resources
+InstanceActivityStatisticsTables.startTime=Start Time
+InstanceActivityStatisticsTables.endTime=End Time
+InstanceActivityStatisticsTables.totalCosuming=Total Time Consuming
+InstanceActivityStatisticsTables.waitingTime=Waiting Time
+InstanceActivityStatisticsTables.occurFrequency=Frequency of occurrence
+InstanceActivityStatisticsTables.relativefrequency=Relative Frequency of Occurrence
+InstanceActivityStatisticsTables.averageConsuming=Average Time Consuming
+
+### InstanceDBTables
+js.InstanceDBTables.instanceId=ID
+js.InstanceDBTables.instanceType=Type
+js.InstanceDBTables.instanceName=Name
+js.InstanceDBTables.instncaeCatalog=Catalog belongs to
+js.InstanceDBTables.createTime=Create Date
+
+### ResouceTable
+ResouceTable.resouceName=Resources Name
+ResouceTable.occurFrequency=Frequency of occurrence
+ResouceTable.relativeFrequency=Relative Frequency of Occurrence
+ResouceTable.averageConsuming=Average Time Consuming
+ResouceTable.totalCosuming=Total Time Consuming
+
+### File Tree
+FileTree.alreadySelectedFile=Files Selected
+
+### login.jsp
+#<sp:message code="login."></sp:message>
+login.page=Welcome to Process Space
+login.title=Process Space
+login.language=Languages
+login.en_US=English
+login.zh_CN=Simplified Chinese
+login.signin=Sign in
+login.remember=Remember me
+login.forgetpassword=Forgot your password?
+login.newuser=New to Process Space?
+login.signup=Sign up
+login.username=username
+login.password=password
+
+### register.jsp
+#<sp:message code="register."></sp:message>
+register.page=Welcome to Process Space
+register.title=Process Space
+register.language=Languages
+register.en_US=English
+register.zh_CN=Simplified Chinese
+register.signup=Sign up
+register.username=username
+register.password=password
+register.confirmpassword=confirm password
+register.signin=Go back to sign in
+
+### navigation.jsp
+#<sp:message code="navigation."></sp:message>
+navigation.title=Process Space
+navigation.processmanagement=Process Management
+navigation.processanalyzer=Process Analyzer
+navigation.functionmanagement=Function Management
+navigation.technicalforum=Techinal Forum
+navigation.language=Languages
+navigation.en_US=English
+navigation.zh_CN=Simplified Chinese
+navigation.search=Search
+navigation.profile=Profile
+navigation.settings=Settings
+navigation.signout=Sign out
+navigation.moduleoverview=Module Overview
+navigation.modelmanagement=Model Management
+navigation.autogeneratemodel=Model Auto-generator
+navigation.modelrepository=Model Repository
+navigation.modelretrival=Model Retrival
+navigation.instancemanagement=Instance Management
+navigation.createinstance=Create Instance
+navigation.autogenerateinstance=Instance Auto-generator
+navigation.instancerepository=Instance Repository
+navigation.instanceretrival=Instance Retrival
+navigation.indexmanagement=Index Management
+navigation.modelindex=Model Index
+navigation.instanceindex=Instance Index
+navigation.processmodelanalyzer=Model Analyzer
+navigation.modelfragmentation=Model Fragmentation
+navigation.modelsimilarity=Similarity Measure
+navigation.modelsimilarityeva=Similarity Evaluation
+navigation.modeldifferentiation=Model Differentiation
+navigation.modelmerge=Model Merge
+navigation.modelstatistics=Model Statistics
+navigation.modelcheck=Model Check
+navigation.modelconversion=Model Conversion
+navigation.modelcluster=Model Clustering
+navigation.processbehaviormonitoring=Process Monitor
+navigation.processstatustracking=Status Tracking
+navigation.executingefficiencyanalysis=Executing Efficiency
+navigation.processinstanceanalyzer=Instance Analyzer
+navigation.processmining=Process Mining
+navigation.miningalgoeva=Mining Algorithm Evaluation
+navigation.socialbehavioranalysis=Social Behavior
+navigation.conformancecheck=Conformance Check
+navigation.operationbehavior=Operation Behavior
+navigation.instancestatistics=Instance Statistics
+
+### modelDB.jsp
+#<sp:message code="modelDB."></sp:message>
+modelDB.page=Process Space
+modelDB.modelrepository=Model Repository
+modelDB.modelmanagement=Model Management
+modelDB.welcome=Welcome to 
+modelDB.description=In this page, you can...
+modelDB.modelcatalog=Model Catalogs
+modelDB.newcatalog=New
+modelDB.removecatalog=Remove
+modelDB.inputcataloginfo=Please input catalog information
+modelDB.catalogname=Catalog Name
+modelDB.cancel=Cancel
+modelDB.confirm=Confirm
+modelDB.modellist=Model List
+modelDB.importmodel=Import
+modelDB.newmodel=New
+modelDB.removemodel=Remove
+modelDB.movemodel=Move
+modelDB.exportmodel=Export
+modelDB.importmodelinfo=Input Model
+modelDB.modelname=Model Name
+modelDB.modeldescription=Model Description
+modelDB.modeltype=Select Model Type
+modelDB.bpmn=BPMN2.0
+modelDB.epc=EPC
+modelDB.petrinet=Petri Net
+modelDB.uploadmodel=Upload models
+modelDB.addfiles=Add files
+modelDB.movemodelinfo=Move Models
+modelDB.keeporiginalmodels=Keep original models?
+modelDB.selectcatalog=Select model catalog
+modelDB.moverespondinginfo=Information
+modelDB.removerespondinginfo=You're not permitted to remove these models
+modelDB.newmodelinfo=New Model
+modelDB.doubleclick=Double click 
+modelDB.canchange= to rename a model
+modelDB.confirm.deleteAllprocess=This will remove all the files of this folder.Do you want to Continue?
+
+### modelFragmentation.jsp
+#<sp:message code="modelFragmentation."></sp:message>
+modelFragmentation.page=Process Space
+modelFragmentation.modelfragmentation=Model Fragmentation
+modelFragmentation.modelanalyzer=Model Analyzer
+modelFragmentation.welcome=Welcome to 
+modelFragmentation.description= In this page, you can...
+modelFragmentation.selectmodels=Select Models
+modelFragmentation.selecttype=(EPC)
+modelFragmentation.fromrepository=In Repository
+modelFragmentation.fromlocalfiles=Local Files
+modelFragmentation.removeselected=Remove
+modelFragmentation.start=Start
+modelFragmentation.showresult=Result will be shown below.
+modelFragmentation.result=Result
+modelFragmentation.waiting=Waiting...
+modelFragmentation.selectcatalog=Select model catalog
+modelFragmentation.cancle=Cancel
+modelFragmentation.confirm=Confirm
+modelFragmentation.uploadmodel=Upload models
+modelFragmentation.addfiles=Add files
+modelFragmentation.inprogress=Waiting...
+modelFragmentation.js.downloadresult=Download
+
+### modelCluster.jsp
+#<sp:message code="modelClustering."></sp:message>
+modelClustering.page=Process Space
+modelClustering.modelclustering=Model Clustering
+modelClustering.modelanalyzer=Model Analyzer
+modelClustering.welcome=Welcome to 
+modelClustering.description= In this page, you can...
+modelClustering.selectmodels=Select Models
+modelClustering.selecttype=(BPMN)
+modelClustering.fromrepository=In Repository
+modelClustering.fromlocalfiles=Local Files
+modelClustering.removeselected=Remove
+modelClustering.start=Start
+modelClustering.showresult=Result will be shown below.
+modelClustering.result=Result
+modelClustering.waiting=Waiting...
+modelClustering.selectcatalog=Select model catalog
+modelClustering.cancle=Cancel
+modelClustering.confirm=Confirm
+modelClustering.uploadmodel=Upload models
+modelClustering.addfiles=Add files
+modelClustering.inprogress=Waiting...
+
+### modelmerge.jsp
+#<sp:message code="modelMerge."></sp:message>
+modelMerge.page=Process Space
+modelMerge.modelmerge=Model Merge
+modelMerge.modelanalyzer=Model Analyzer
+modelMerge.welcome=Welcome to 
+modelMerge.description= In this page, you can...
+modelMerge.selectmodels=Select Models
+modelMerge.selecttype=(BPMN)
+modelMerge.fromrepository=In Repository
+modelMerge.fromlocalfiles=Local Files
+modelMerge.removeselected=Remove
+modelMerge.start=Start
+modelMerge.showresult=Result will be shown below.
+modelMerge.result=Result
+modelMerge.waiting=Waiting...
+modelMerge.selectcatalog=Select model catalog
+modelMerge.cancle=Cancel
+modelMerge.confirm=Confirm
+modelMerge.uploadmodel=Upload models
+modelMerge.addfiles=Add files
+modelMerge.inprogress=Waiting...
+modelMerge.js.downloadresult=Download
+
+### modelDifferentiation.jsp
+#<sp:message code="modelDiff."></sp:message>
+modelDiff.page=Process Space
+modelDiff.modeldifferentiation=Model Differentiation
+modelDiff.modelanalyzer=Model Analyzer
+modelDiff.welcome=Welcome to 
+modelDiff.description= In this page, you can capture the differentiation between two epc models.
+modelDiff.selectmodels=Select Models
+modelDiff.drawmodel=Draw
+modelDiff.fromrepository=In Repository
+modelDiff.fromlocalfiles=Local File
+modelDiff.modelthumb=Model Thumbnail
+modelDiff.uploadmodel=Upload models
+modelDiff.addfiles=Add files
+modelDiff.supportmodel=Only support epc models
+modelDiff.selectcatalog=Select model catalog
+modelDiff.start=Start
+modelDiff.showresult=Result will be shown below.
+modelDiff.result=Result
+modelDiff.waiting=Waiting...
+modelDiff.cancle=Cancel
+modelDiff.confirm=Confirm
+
+### instanceDB.jsp
+#<sp:message code="instanceDB."></sp:message>
+instanceDB.page=Process Space
+instanceDB.instancerepository=Instance Repository
+instanceDB.instancemanagement=Instance Management
+instanceDB.instancecatalog=Instance Catalog
+instanceDB.newcatalog=New
+instanceDB.removecatalog=Remove
+instanceDB.catalogname=Catalog Name
+instanceDB.cancel=Cancel
+instanceDB.confirm=Confirm
+instanceDB.removecheck=Are you sure to remove?
+instanceDB.uploadlog=Upload Log
+instanceDB.logname=Log Name
+instanceDB.nextstep=Next
+instanceDB.addfiles=Add file
+instanceDB.finish=Finish
+instanceDB.instancelist=Instance List
+instanceDB.movelog=Move Log
+instanceDB.exportlog=Export Log
+instanceDB.keeporiginallog=Keep original logs?
+instanceDB.selectcatalog=Select Catalog
+instanceDB.moverespondinginfo=Information
+instanceDB.removerespondinginfo=You're not permitted to remove these logs
+
+### processmining.jsp
+#<sp:message code="processMining."></sp:message>
+processMining.page=Process Space
+processMining.processmining=Process Mining
+processMining.instanceanalyzer=Instance Analyzer
+processMining.welcome=Welcome to 
+processMining.description= In this page, you can mining instance logs with different mining algorithms.
+processMining.prevstep=Prev
+processMining.nextstep=Next
+processMining.finish=Finish
+processMining.uploadlog=Upload logs
+processMining.uploadtype=(.mxml)
+processMining.addfiles=Add file
+processMining.filename=Filename
+processMining.filesize=Size
+processMining.filetype=Type
+processMining.download=Download
+processMining.miningalgorithm=Select Algorithm
+processMining.start=Start mining
+processMining.inprogress=Mining...
+processMining.result=Result
+
+### miningalgorithmevaluate.jsp
+#<sp:message code="processMiningEva."></sp:message>
+processMiningEva.page=Process Space
+processMiningEva.miningalgoeva=Mining Algorithm Evaluation
+processMiningEva.instanceanalyzer=Instance Analyzer
+processMiningEva.welcome=Welcome to 
+processMiningEva.description= In this page, you can evaluate process mining algorithm.
+processMiningEva.prevstep=Prev
+processMiningEva.nextstep=Next
+processMiningEva.finish=Finish
+processMiningEva.uploadmodel=Upload Model
+processMiningEva.uploadtype=(.pnml)
+processMiningEva.addfiles=Add file
+processMiningEva.filename=Filename
+processMiningEva.filesize=Size
+processMiningEva.filetype=Type
+processMiningEva.download=Download
+processMiningEva.logcompleteness=Log Completeness
+processMiningEva.logcompletenesstip1=Between 
+processMiningEva.logcompletenesstip2=1%-100%. 
+processMiningEva.logcompletenesstip3=The larger the value is, the more complete the generated log will be.
+processMiningEva.loggenerator=Log Generator
+processMiningEva.miningalgo=Mining Algorithm
+processMiningEva.behaviorsim=Behaviour Similarity Measure
+processMiningEva.structuralsim=Structural Similarity Measure
+processMiningEva.start=Start
+processMiningEva.inprogress=Waiting...
+processMiningEva.result=Result
+
+### conformancecheck.jsp
+#<sp:message code="confCheck."></sp:message>
+confCheck.page=Process Space
+confCheck.confcheck=Conformance Check
+confCheck.instanceanalyzer=Instance Analyzer
+confCheck.welcome=Welcome to 
+confCheck.description= In this page, you can do conformance check on process logs.
+confCheck.prevstep=Prev
+confCheck.nextstep=Next
+confCheck.finish=Finish
+confCheck.uploadlog=Upload Log
+confCheck.uploadtype=(.mxml)
+confCheck.addfiles=Add file
+confCheck.filename=Filename
+confCheck.filesize=Size
+confCheck.filetype=Type
+confCheck.download=Download
+confCheck.miningalgo=Mining Algorithm
+confCheck.start=Start
+confCheck.inprogress=Waiting...
+confCheck.result=Result
+
+### socialnetworkmining.jsp
+#<sp:message code="socialMining."></sp:message>
+socialMining.page=Process Space
+socialMining.socialnetworkmining=Social Network Mining
+socialMining.instanceanalyzer=Instance Analyzer
+socialMining.welcome=Welcome to 
+socialMining.description= In this page, you can mining social behaviour on process logs.
+socialMining.prevstep=Prev
+socialMining.nextstep=Next
+socialMining.finish=Finish
+socialMining.uploadlog=Upload Log
+socialMining.uploadtype=(.mxml)
+socialMining.addfiles=Add file
+socialMining.filename=Filename
+socialMining.filesize=Size
+socialMining.filetype=Type
+socialMining.download=Download
+socialMining.miningbasis=Mining Basis
+socialMining.correlationcoefficient=Correlation Coefficient
+socialMining.correlationcoefficienttip1=Between 
+socialMining.correlationcoefficienttip2=1%-99%. 
+socialMining.correlationcoefficienttip3=The larger the value is, the more complex the result graph will be.
+socialMining.start=Start
+socialMining.inprogress=Waiting...
+socialMining.result=Result
+
+### executeefficiencyanalyze.jsp
+#<sp:message code="exeeffianalyzer."></sp:message>
+exeeffianalyzer.page=Process Space
+exeeffianalyzer.exeeffianalyzer=Executing Efficiency Analyzer
+exeeffianalyzer.processmonitor=Process Monitor
+exeeffianalyzer.welcome=Welcome to 
+exeeffianalyzer.description= In this page, you can deep-dive into process log through variable reports.
+exeeffianalyzer.selectlog=Select Log
+exeeffianalyzer.uploadlog=Upload Log
+exeeffianalyzer.removelog=Remove Log
+exeeffianalyzer.logname=Log Name
+exeeffianalyzer.cancel=Cancel
+exeeffianalyzer.confirm=Confirm
+exeeffianalyzer.nextstep=Next
+exeeffianalyzer.addfiles=Add file
+exeeffianalyzer.finish=Finish
+exeeffianalyzer.removecheck=Are you sure to remove?
+exeeffianalyzer.logoverview=Log Overview
+exeeffianalyzer.logreport=Log Report
+exeeffianalyzer.logtypestat=Log Type Statistics
+exeeffianalyzer.activitytypestat=Activity Type Statistics
+exeeffianalyzer.activitystat=Activity Statistics
+exeeffianalyzer.activityreport=Activity Report
+exeeffianalyzer.resourcestat=Resource Statistics
+exeeffianalyzer.resourcerepost=Resource Report
+exeeffianalyzer.highfrequencyactivitystat=High-Freq Activity Statistics
+exeeffianalyzer.activeresourcestat=Active Resource Statistics
+
+### instanceSearch.jsp
+#<sp:message code="instanceretrival."></sp:message>
+instanceretrival.page=Process Space
+instanceretrival.instanceRetrival=Instance Retrival
+instanceretrival.instancemanagement=Instance Management
+instanceretrival.indextype=Index Type
+instanceretrival.length=Length
+instanceretrival.timeconsuming=Time consuming
+instanceretrival.activity=Activity
+instanceretrival.adjacentactivity=Adjacent Activity
+instanceretrival.retrivaltarget=Retrival Target
+instanceretrival.start=Start
+instanceretrival.result=Result
+instanceSearch.resultAlert=Process Space will show you the result according to your choice.
+instanceSearch.resultLength=According to your input [Process Space] will show you the result and if you want to set the range input like this 10,15
+instanceSearch.resulttimeConsuming=Input Consuming Time 
+instanceSearch.resultActivity=Input the name of activity
+instanceSearch.AdjacentActivity=Input Adjacent Activities with Comma separated,like a,b

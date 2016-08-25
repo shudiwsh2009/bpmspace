@@ -1,0 +1,428 @@
+###<sp:message code=""></sp:message>
+
+### js 
+### Table 
+DBTable.modelName=模型名称
+DBTable.modelType=类型
+DBTable.CreateInfo=创建信息
+DBTable.Lastmodifiedtime=最后修改时间
+DBTable.size=大小
+DBTable.version=版本号
+
+### InstanceLogOverViewTable
+InstanceLogOverViewTable.instanceId=实例编号
+InstanceLogOverViewTable.ActivityNum=活动数目
+InstanceLogOverViewTable.startTime=开始时间
+InstanceLogOverViewTable.endTime=结束时间
+InstanceLogOverViewTable.avergeConsuming=平均耗时
+InstanceLogOverViewTable.medianConsuming=耗时中值
+InstanceLogOverViewTable.totalConsuming=总计耗时
+
+### InstanceActivityStatisticsTables
+InstanceActivityStatisticsTables.acttivityName=活动名称
+InstanceActivityStatisticsTables.excuteResources=执行资源
+InstanceActivityStatisticsTables.startTime=开始时间
+InstanceActivityStatisticsTables.endTime=结束时间
+InstanceActivityStatisticsTables.totalCosuming=总计耗时
+InstanceActivityStatisticsTables.waitingTime=等待时间
+InstanceActivityStatisticsTables.occurFrequency=发生频率
+InstanceActivityStatisticsTables.relativefrequency=相对频率
+InstanceActivityStatisticsTables.averageConsuming=平均耗时
+
+
+### InstanceDBTables
+js.InstanceDBTables.instanceId=编号
+js.InstanceDBTables.instanceType=类型
+js.InstanceDBTables.instanceName=名称
+js.InstanceDBTables.instncaeCatalog=目录
+js.InstanceDBTables.createTime=创建时间
+
+### ResouceTable
+ResouceTable.resouceName=资源名称
+ResouceTable.occurFrequency=出现频率
+ResouceTable.relativeFrequency=相对频率
+ResouceTable.averageConsuming=平均耗时
+ResouceTable.totalCosuming=总计耗时
+
+###Tree
+FileTree.alreadySelectedFile=已经选择的文件
+
+### login.jsp
+#<sp:message code="login."></sp:message>
+login.page=欢迎使用Process Space
+login.title=Process Space
+login.language=语言
+login.en_US=英语
+login.zh_CN=简体中文
+login.signin=登录
+login.remember=记住我
+login.forgetpassword=忘记密码？
+login.newuser=新用户？
+login.signup=注册
+login.username=用户名
+login.password=密码
+
+### register.jsp
+#<sp:message code="register."></sp:message>
+register.page=欢迎使用Process Space
+register.title=Process Space
+register.language=语言
+register.en_US=英语
+register.zh_CN=简体中文
+register.signup=注册
+register.username=用户名
+register.password=密码
+register.confirmpassword=确认密码
+register.signin=回到登录页面
+
+### navigation.jsp
+#<sp:message code="navigation."></sp:message>
+navigation.title=Process Space
+navigation.processmanagement=流程管理
+navigation.processanalyzer=流程分析
+navigation.functionmanagement=功能管理
+navigation.technicalforum=技术论坛
+navigation.language=语言
+navigation.en_US=英语
+navigation.zh_CN=简体中文
+navigation.search=搜索
+navigation.profile=个人资料
+navigation.settings=系统设置
+navigation.signout=注销
+navigation.moduleoverview=模块概览
+navigation.modelmanagement=模型管理
+navigation.autogeneratemodel=自动生成模型
+navigation.modelrepository=模型库
+navigation.modelretrival=模型检索
+navigation.instancemanagement=实例管理
+navigation.createinstance=实例创建
+navigation.autogenerateinstance=自动生成实例
+navigation.instancerepository=实例库
+navigation.instanceretrival=实例检索
+navigation.indexmanagement=索引管理
+navigation.modelindex=模型索引
+navigation.instanceindex=实例索引
+navigation.processmodelanalyzer=流程模型分析
+navigation.modelfragmentation=模型片段化
+navigation.modelsimilarity=相似度计算
+navigation.modelsimilarityeva=相似度评估
+navigation.modeldifferentiation=差异性分析
+navigation.modelmerge=模型合并
+navigation.modelstatistics=模型特征统计
+navigation.modelcheck=模型校验
+navigation.modelconversion=模型转换
+navigation.modelcluster=模型聚类
+navigation.processbehaviormonitoring=流程行为监控
+navigation.processstatustracking=流程状态跟踪
+navigation.executingefficiencyanalysis=执行效率分析
+navigation.processinstanceanalyzer=流程实例分析
+navigation.processmining=流程挖掘
+navigation.miningalgoeva=挖掘算法评估
+navigation.socialbehavioranalysis=社交行为分析
+navigation.conformancecheck=符合性检验
+navigation.operationbehavior=运行行为
+navigation.instancestatistics=日志特征统计
+
+### modelDB.jsp
+#<sp:message code="modelDB."></sp:message>
+modelDB.page=过程数据空间
+modelDB.modelrepository=模型库
+modelDB.modelmanagement=模型管理
+modelDB.welcome=欢迎使用
+modelDB.description=在这个页面，您可以……
+modelDB.modelcatalog=模型目录
+modelDB.newcatalog=新建目录
+modelDB.removecatalog=删除目录
+modelDB.inputcataloginfo=请输入新目录的信息
+modelDB.catalogname=目录名
+modelDB.cancel=取消
+modelDB.confirm=确认
+modelDB.modellist=模型列表
+modelDB.importmodel=导入
+modelDB.newmodel=新建
+modelDB.removemodel=删除
+modelDB.movemodel=移动
+modelDB.exportmodel=导出
+modelDB.importmodelinfo=导入模型
+modelDB.modelname=模型名称
+modelDB.modeldescription=模型描述
+modelDB.modeltype=选择类型
+modelDB.bpmn=BPMN2.0
+modelDB.epc=EPC
+modelDB.petrinet=Petri Net
+modelDB.uploadmodel=请上传模型
+modelDB.addfiles=添加文件
+modelDB.movemodelinfo=移动模型
+modelDB.keeporiginalmodels=是否保留原模型
+modelDB.selectcatalog=选择目录
+modelDB.moverespondinginfo=移动模型结果
+modelDB.removerespondinginfo=您没有权限删除模型
+modelDB.newmodelinfo=新建模型
+modelDB.doubleclick=双击
+modelDB.canchange=以重命名
+modelDB.confirm.deleteAllprocess=这会删除整个文件夹及文件夹内所有内容，确定要这么做么？
+
+### modelFragmentation.jsp
+#<sp:message code="modelFragmentation."></sp:message>
+modelFragmentation.page=过程数据空间
+modelFragmentation.modelfragmentation=模型片段化
+modelFragmentation.modelanalyzer=流程模型分析
+modelFragmentation.welcome=欢迎使用
+modelFragmentation.description=在这个页面，您可以……
+modelFragmentation.selectmodels=选择模型
+modelFragmentation.selecttype=(EPC)
+modelFragmentation.fromrepository=库中选择
+modelFragmentation.fromlocalfiles=本地上传
+modelFragmentation.removeselected=删除选中
+modelFragmentation.start=开始片段化
+modelFragmentation.showresult=片段化结果将在下面显示
+modelFragmentation.result=片段化结果
+modelFragmentation.waiting=等待结果
+modelFragmentation.selectcatalog=选择目录
+modelFragmentation.cancle=取消
+modelFragmentation.confirm=确认
+modelFragmentation.uploadmodel=请上传模型
+modelFragmentation.addfiles=添加文件
+modelFragmentation.inprogress=努力计算中
+modelFragmentation.js.downloadresult=点此下载
+
+### modelCluster.jsp
+#<sp:message code="modelClustering."></sp:message>
+modelClustering.page=过程数据空间
+modelClustering.modelclustering=模型聚类
+modelClustering.modelanalyzer=流程模型分析
+modelClustering.welcome=欢迎使用
+modelClustering.description=在这个页面，您可以……
+modelClustering.selectmodels=选择模型
+modelClustering.selecttype=(BPMN)
+modelClustering.fromrepository=库中选择
+modelClustering.fromlocalfiles=本地上传
+modelClustering.removeselected=删除选中
+modelClustering.start=开始聚类
+modelClustering.showresult=聚类结果将在下面显示
+modelClustering.result=聚类结果
+modelClustering.waiting=等待结果
+modelClustering.selectcatalog=选择目录
+modelClustering.cancle=取消
+modelClustering.confirm=确认
+modelClustering.uploadmodel=请上传模型
+modelClustering.addfiles=添加文件
+modelClustering.inprogress=努力计算中
+
+### modelmerge.jsp
+#<sp:message code="modelMerge."></sp:message>
+modelMerge.page=过程数据空间
+modelMerge.modelmerge=模型合并
+modelMerge.modelanalyzer=流程模型分析
+modelMerge.welcome=欢迎使用
+modelMerge.description=在这个页面，您可以……
+modelMerge.selectmodels=选择模型
+modelMerge.selecttype=(BPMN)
+modelMerge.fromrepository=库中选择
+modelMerge.fromlocalfiles=本地上传
+modelMerge.removeselected=删除选中
+modelMerge.start=开始合并
+modelMerge.showresult=合并结果将在下面显示
+modelMerge.result=合并结果
+modelMerge.waiting=等待结果
+modelMerge.selectcatalog=选择目录
+modelMerge.cancle=取消
+modelMerge.confirm=确认
+modelMerge.uploadmodel=请上传模型
+modelMerge.addfiles=添加文件
+modelMerge.inprogress=努力计算中
+modelMerge.js.downloadresult=点此下载
+
+### modelDifferentiation.jsp
+#<sp:message code="modelDiff."></sp:message>
+modelDiff.page=过程数据空间
+modelDiff.modeldifferentiation=差异性分析
+modelDiff.modelanalyzer=流程模型分析
+modelDiff.welcome=欢迎使用
+modelDiff.description=在这个页面，您可以计算两个EPC模型的差异性
+modelDiff.selectmodels=选择模型
+modelDiff.drawmodel=绘制模型
+modelDiff.fromrepository=库中选择
+modelDiff.fromlocalfiles=本地上传
+modelDiff.modelthumb=模型缩略图
+modelDiff.uploadmodel=请上传模型
+modelDiff.addfiles=添加文件
+modelDiff.supportmodel=只支持EPC模型
+modelDiff.selectcatalog=选择目录
+modelDiff.start=开始分析
+modelDiff.showresult=差异性分析结果将在下面显示
+modelDiff.result=合并结果
+modelDiff.waiting=等待结果
+modelDiff.cancle=取消
+modelDiff.confirm=确认
+
+### instanceDB.jsp
+#<sp:message code="instanceDB."></sp:message>
+instanceDB.page=过程数据空间
+instanceDB.instancerepository=实例库
+instanceDB.instancemanagement=实例管理
+instanceDB.instancecatalog=实例目录
+instanceDB.newcatalog=新建目录
+instanceDB.removecatalog=删除目录
+instanceDB.catalogname=目录名
+instanceDB.cancel=取消
+instanceDB.confirm=确认
+instanceDB.removecheck=确认删除？
+instanceDB.uploadlog=上传日志
+instanceDB.logname=日志名称
+instanceDB.nextstep=下一步
+instanceDB.addfiles=添加文件
+instanceDB.finish=完成
+instanceDB.instancelist=实例列表
+instanceDB.movelog=移动日志
+instanceDB.exportlog=导出日志
+instanceDB.keeporiginallog=是否保留原日志？
+instanceDB.selectcatalog=选择目录
+instanceDB.moverespondinginfo=移动日志结果
+instanceDB.removerespondinginfo=您没有权限删除日志
+
+### processmining.jsp
+#<sp:message code="processMining."></sp:message>
+processMining.page=过程数据空间
+processMining.processmining=流程挖掘
+processMining.instanceanalyzer=流程实例分析
+processMining.welcome=欢迎使用
+processMining.description=在这个页面，您可以用不同算法对流程实例进行挖掘
+processMining.prevstep=上一步
+processMining.nextstep=下一步
+processMining.finish=完成
+processMining.uploadlog=上传日志
+processMining.uploadtype=(.mxml)
+processMining.addfiles=添加文件
+processMining.filename=文件名
+processMining.filesize=文件大小
+processMining.filetype=文件类型
+processMining.download=下载
+processMining.miningalgorithm=挖掘算法
+processMining.start=开始挖掘
+processMining.inprogress=努力挖掘中
+processMining.result=挖掘结果
+
+### miningalgorithmevaluate.jsp
+#<sp:message code="processMiningEva."></sp:message>
+processMiningEva.page=过程数据空间
+processMiningEva.miningalgoeva=挖掘算法评估
+processMiningEva.instanceanalyzer=流程实例分析
+processMiningEva.welcome=欢迎使用
+processMiningEva.description=在这个页面，您可以对挖掘算法进行评估
+processMiningEva.prevstep=上一步
+processMiningEva.nextstep=下一步
+processMiningEva.finish=完成
+processMiningEva.uploadmodel=上传模型
+processMiningEva.uploadtype=(.pnml)
+processMiningEva.addfiles=添加文件
+processMiningEva.filename=文件名
+processMiningEva.filesize=文件大小
+processMiningEva.filetype=文件类型
+processMiningEva.download=下载
+processMiningEva.logcompleteness=日志完整性
+processMiningEva.logcompletenesstip1=日志完整性为
+processMiningEva.logcompletenesstip2=1%-100%
+processMiningEva.logcompletenesstip3=的小数，数值越大，生成的日志越完整.
+processMiningEva.loggenerator=日志生成算法
+processMiningEva.miningalgo=流程挖掘算法
+processMiningEva.behaviorsim=行为相似度算法
+processMiningEva.structuralsim=结构相似度算法
+processMiningEva.start=开始评估
+processMiningEva.inprogress=努力评估中...
+processMiningEva.result=评估结果
+
+### conformancecheck.jsp
+#<sp:message code="confCheck."></sp:message>
+confCheck.page=过程数据空间
+confCheck.confcheck=符合性检验
+confCheck.instanceanalyzer=流程实例分析
+confCheck.welcome=欢迎使用
+confCheck.description=在这个页面，您可以对日志进行符合性检验
+confCheck.prevstep=上一步
+confCheck.nextstep=下一步
+confCheck.finish=完成
+confCheck.uploadlog=上传日志
+confCheck.uploadtype=(.mxml)
+confCheck.addfiles=添加文件
+confCheck.filename=文件名
+confCheck.filesize=文件大小
+confCheck.filetype=文件类型
+confCheck.download=下载
+confCheck.miningalgo=挖掘算法
+confCheck.start=开始校验
+confCheck.inprogress=努力校验中...
+confCheck.result=校验结果
+
+### socialnetworkmining.jsp
+#<sp:message code="socialMining."></sp:message>
+socialMining.page=过程数据空间
+socialMining.socialnetworkmining=社交行为分析
+socialMining.instanceanalyzer=流程实例分析
+socialMining.welcome=欢迎使用
+socialMining.description=在这个页面，您可以对日志进行社交行为分析
+socialMining.prevstep=上一步
+socialMining.nextstep=下一步
+socialMining.finish=完成
+socialMining.uploadlog=上传日志
+socialMining.uploadtype=(.mxml)
+socialMining.addfiles=添加文件
+socialMining.filename=文件名
+socialMining.filesize=文件大小
+socialMining.filetype=文件类型
+socialMining.download=下载
+socialMining.miningbasis=挖掘依据
+socialMining.correlationcoefficient=关联系数
+socialMining.correlationcoefficienttip1=关联系数为
+socialMining.correlationcoefficienttip2=1%-99%
+socialMining.correlationcoefficienttip3=的小数，关联系数越小，生成图越复杂.
+socialMining.start=开始挖掘
+socialMining.inprogress=努力分析中...
+socialMining.result=分析结果
+
+### executeefficiencyanalyze.jsp
+#<sp:message code="exeeffianalyzer."></sp:message>
+exeeffianalyzer.page=过程数据空间
+exeeffianalyzer.exeeffianalyzer=执行效率分析
+exeeffianalyzer.processmonitor=流程行为监控
+exeeffianalyzer.welcome=欢迎使用
+exeeffianalyzer.description=在这个页面，这里你可以通过生成各种报表深入分析原始流程日志.
+exeeffianalyzer.selectlog=选择日志
+exeeffianalyzer.uploadlog=上传日志
+exeeffianalyzer.removelog=删除日志
+exeeffianalyzer.logname=日志名称
+exeeffianalyzer.cancel=取消
+exeeffianalyzer.confirm=确认
+exeeffianalyzer.nextstep=下一步
+exeeffianalyzer.addfiles=添加文件
+exeeffianalyzer.finish=完成
+exeeffianalyzer.removecheck=确定删除？
+exeeffianalyzer.logoverview=日志概览
+exeeffianalyzer.logreport=实例报表
+exeeffianalyzer.logtypestat=实例类型统计
+exeeffianalyzer.activitytypestat=活动类型统计
+exeeffianalyzer.activitystat=活动统计
+exeeffianalyzer.activityreport=活动报表
+exeeffianalyzer.resourcestat=资源统计
+exeeffianalyzer.resourcerepost=资源报表
+exeeffianalyzer.highfrequencyactivitystat=高发生率活动统计
+exeeffianalyzer.activeresourcestat=活跃资源统计
+
+### instanceSearch.jsp
+#<sp:message code="instanceretrival."></sp:message>
+instanceretrival.page=过程数据空间
+instanceretrival.instanceRetrival=实例检索
+instanceretrival.instancemanagement=实例管理
+instanceretrival.indextype=索引类型
+instanceretrival.length=长度
+instanceretrival.timeconsuming=耗时
+instanceretrival.activity=活动
+instanceretrival.adjacentactivity=相邻活动
+instanceretrival.retrivaltarget=检索目标
+instanceretrival.start=开始检索
+instanceretrival.result=检索结果
+instanceSearch.resultAlert=Process Space将会根据您的选择计算结果
+instanceSearch.resultLength=Process Space将会根据输入的长度返回结果.当您需要选定范围时，请输入类似于10,15
+instanceSearch.resulttimeConsuming=请输入耗时
+instanceSearch.resultActivity=请输入活动名称
+instanceSearch.AdjacentActivity=请输入相邻活动,活动之间以,分隔

@@ -1,0 +1,10 @@
+A AND
+B AND
+C XOR
+D OR
+
+A B
+A C
+B C
+B D
+C D

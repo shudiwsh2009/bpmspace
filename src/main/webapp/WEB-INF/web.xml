@@ -1,0 +1,113 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+	      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	      xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	      http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	      version="2.5">	
+ 
+	<display-name>BPM Space</display-name>
+	
+	
+	<filter>
+		<filter-name>sessionFilter</filter-name>
+		<filter-class>com.chinamobile.bpmspace.core.filter.SessionFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>sessionFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	
+	<listener>
+		<listener-class>
+			org.springframework.web.context.ContextLoaderListener
+		</listener-class>
+	</listener>
+	<listener>
+		<listener-class>
+			com.chinamobile.bpmspace.core.util.ServerInit
+		</listener-class>
+	</listener>
+	
+	<servlet>
+		<servlet-name>mvc-dispatcher</servlet-name>
+		<servlet-class>
+			org.springframework.web.servlet.DispatcherServlet
+		</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	
+	<servlet-mapping>
+  		<servlet-name>default</servlet-name>
+  		<url-pattern>*.jpg</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+  		<servlet-name>default</servlet-name>
+  		<url-pattern>*.js</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+  		<servlet-name>default</servlet-name>
+  		<url-pattern>*.css</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+  		<servlet-name>default</servlet-name>
+  		<url-pattern>*.eot</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+  		<servlet-name>default</servlet-name>
+  		<url-pattern>*.woff</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+  		<servlet-name>default</servlet-name>
+  		<url-pattern>*.ttf</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+  		<servlet-name>default</servlet-name>
+  		<url-pattern>*.svg</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+  		<servlet-name>default</servlet-name>
+  		<url-pattern>*.xml</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+  		<servlet-name>default</servlet-name>
+  		<url-pattern>*.pnml</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+  		<servlet-name>default</servlet-name>
+  		<url-pattern>*.epml</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+  		<servlet-name>default</servlet-name>
+  		<url-pattern>*.bpmn</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+  		<servlet-name>default</servlet-name>
+  		<url-pattern>*.zip</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+  		<servlet-name>default</servlet-name>
+  		<url-pattern>*.png</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+  		<servlet-name>default</servlet-name>
+  		<url-pattern>*.gif</url-pattern>
+	</servlet-mapping> 
+	<servlet-mapping>
+  		<servlet-name>default</servlet-name>
+  		<url-pattern>*.txt</url-pattern>
+	</servlet-mapping> 
+	<servlet-mapping>
+  		<servlet-name>default</servlet-name>
+  		<url-pattern>*.csv</url-pattern>
+	</servlet-mapping> 
+	<servlet-mapping>
+		<servlet-name>mvc-dispatcher</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
+ 
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>/WEB-INF/mvc-dispatcher-servlet.xml</param-value>
+	</context-param>
+ 	
+	
+</web-app>
